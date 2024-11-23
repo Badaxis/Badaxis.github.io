@@ -1,15 +1,147 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/logo_white.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>VB Portfolio</title>
   </head>
   <body>
-    <header></header>
-    <main id="app"></main>
-    <script type="module" src="/main.js"></script>
-    <footer></footer>
+    <header>
+      <img class="header-logo" src="/logo_white.svg" alt="">
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>Welcome to my humble portfolio</h1>
+        <div class="typewriter">
+          <span class="type" style="--n:161">My name is Vincent Billet, I'm a fullstack web developper.<br>
+            I'm a remote freelancer based in France, looking to work in small to medium size projects.</span>
+        </div>
+      </section>
+      <section id="projects">
+        <h1>Projects</h1>
+        <h2>Things I've worked on</h2>
+        <div class="projects-grid">
+          <figure class="card">
+            <img src="images/Booki.png" alt="Booki website screenshot">
+            <figcaption>
+              <h3>Booki</h3>
+              <p>
+                Front page for a booking website, responsive.
+                <br>
+                Done with HTML & CSS.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img src="images/ArchiWebos.png" alt="Sophie Bluel's website screenshot">
+            <figcaption>
+              <h3>ArchiWebos</h3>
+              <p>
+                Frontend for an interior architect's personal website, the client can manage their own content.
+                <br>
+                Done with HTML, CSS & JS.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img src="images/NinaCarducci.png" alt="Nina Carducci's website screenshot">
+            <figcaption>
+              <h3>Nina Carducci</h3>
+              <p>Optimizing and debugging a photograph's personal website; SEO.</p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img src="images/Kasa.png" alt="Kasa website screenshot">
+            <figcaption>
+              <h3>Kasa</h3>
+              <p>
+                Frontend revamp of a renting website.
+                <br>
+                Done with React, React-router & SCSS.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="card">
+            <img src="images/MVG.png" alt="Mon Vieux Grimoire website screenshot">
+            <figcaption>
+              <h3>Mon Vieux Grimoire</h3>
+              <p>
+                Backend for a book notation website.
+                <br>
+                Done with NodeJS, Express and MongoDB.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="skills">
+        <h1>Skills</h1>
+        <h2>Things I've worked with</h2>
+        <div class="skills-medals">
+          <div class="medal">
+            <img src="images/react_logo.svg" alt="React logo" title="React">
+          </div>
+          <div class="medal">
+            <img src="images/rr_logo_light.svg" alt="React-router logo" title="React-router">
+          </div>
+          <div class="medal">
+            <img src="images/nodejs_logo.svg" alt="NodeJS logo" title="NodeJS">
+          </div>
+          <div class="medal">
+            <img src="images/HTML5_logo.svg" alt="HTML5 logo" title="HTML5">
+          </div>
+          <div class="medal">
+            <img src="images/CSS3_logo.svg" alt="CSS3 logo" title="CSS3">
+          </div>
+          <div class="medal">
+            <img src="images/sass_logo.svg" alt="SASS logo" title="SASS">
+          </div>
+          <div class="medal">
+            <img src="images/JavaScript-logo.png" alt="Javascript logo" title="Javascript">
+          </div>
+          <div class="medal">
+            <img src="images/vite_logo.svg" alt="Vite logo" title="Vite">
+          </div>
+          <div class="medal">
+            <img src="images/unity_logo.png" alt="Unity Engine logo" title="Unity">
+          </div>
+          <div class="medal">
+            <img src="images/logo_csharp.png" alt="C-sharp logo" title="C#">
+          </div>
+          <div class="medal">
+            <img src="images/git-logo.svg" alt="Git logo" title="Git">
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+        <h2>Let's get in touch</h2>
+        <p>
+          <img src="images/mail.png" alt="Mail symbol">
+          <a href="mailto:billet.vincent@free.fr">billet.vincent@free.fr</a>
+        </p>
+        <p>
+          <img src="images/github-mark-white.png" alt="Github logo">
+          <a href="https://github.com/Badaxis">https://github.com/Badaxis</a>
+        </p>
+        <p>
+          <img src="images/LI-In-Bug.png" alt="Linkedin logo">
+          <a href="https://www.linkedin.com/in/vincent-billet-0699452a4/">https://www.linkedin.com/in/vincent-billet-0699452a4/</a>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Vincent BILLET</p>
+    </footer>
   </body>
 </html>
