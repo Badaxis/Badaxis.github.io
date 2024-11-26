@@ -2,20 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/logo_white.svg">
+    <link rel="icon" type="image/svg+xml" href="images/logo_white.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>VB Portfolio</title>
   </head>
   <body>
     <header>
-      <img class="header-logo" src="/logo_white.svg" alt="">
+      <a href=""><img class="header-logo" src="images/logo_white.svg" alt="VB logo"></a>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
+          <!--<li><a href="#services">Services</a></li>-->
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -23,63 +23,79 @@
       <section id="about">
         <h1>Welcome to my humble portfolio</h1>
         <div class="typewriter">
-          <span class="type" style="--n:161">My name is Vincent Billet, I'm a fullstack web developper.<br>
-            I'm a remote freelancer based in France, looking to work in small to medium size projects.</span>
+          <span class="type" style="--n:154">
+            I'm Vincent Billet, a fullstack web developper.<br>
+            I'm a remote freelancer based in France, looking to work in small to medium size projects.
+          </span>
         </div>
       </section>
+      <!--<section id="services">
+        <h1>Services</h1>
+        <h2>What you can expect</h2>
+        <p>
+          Graduate from the Web Developer course at OpenClassrooms, I work with modern web technologies and practices.
+        </p>
+      </section>-->
       <section id="projects">
         <h1>Projects</h1>
         <h2>Things I've worked on</h2>
         <div class="projects-grid">
           <figure class="card">
-            <img src="images/Booki.png" alt="Booki website screenshot">
+            <img src="images/Booki.webp" alt="Booki website screenshot">
             <figcaption>
               <h3>Booki</h3>
               <p>
-                Front page for a booking website, responsive.
-                <br>
+                Front page for a booking website, responsive.<br>
                 Done with HTML & CSS.
               </p>
+              <br>
+              <a href="https://github.com/Badaxis/Projet-2---Booki">https://github.com/Badaxis/Projet-2---Booki</a>
             </figcaption>
           </figure>
           <figure class="card">
-            <img src="images/ArchiWebos.png" alt="Sophie Bluel's website screenshot">
+            <img src="images/ArchiWebos.webp" alt="Sophie Bluel's website screenshot">
             <figcaption>
               <h3>ArchiWebos</h3>
               <p>
-                Frontend for an interior architect's personal website, the client can manage their own content.
-                <br>
+                Frontend for an interior architect's personal website, the client can manage their own content.<br>
                 Done with HTML, CSS & JS.
               </p>
+              <br>
+              <a href="https://github.com/Badaxis/Projet-3---ArchiWebos">https://github.com/Badaxis/Projet-3---ArchiWebos</a>
             </figcaption>
           </figure>
           <figure class="card">
-            <img src="images/NinaCarducci.png" alt="Nina Carducci's website screenshot">
+            <img src="images/NinaCarducci.webp" alt="Nina Carducci's website screenshot">
             <figcaption>
               <h3>Nina Carducci</h3>
               <p>Optimizing and debugging a photograph's personal website; SEO.</p>
+              <br>
+              <a href="https://github.com/Badaxis/Nina-Carducci-Dev">https://github.com/Badaxis/Nina-Carducci-Dev</a>
             </figcaption>
           </figure>
           <figure class="card">
-            <img src="images/Kasa.png" alt="Kasa website screenshot">
+            <img src="images/Kasa.webp" alt="Kasa website screenshot">
             <figcaption>
               <h3>Kasa</h3>
               <p>
-                Frontend revamp of a renting website.
-                <br>
-                Done with React, React-router & SCSS.
+                Frontend revamp of a renting website.<br>
+                Done with React, React Router & SCSS.
               </p>
+              <br>
+              <a href="https://github.com/Badaxis/kasa">https://github.com/Badaxis/kasa</a>
             </figcaption>
           </figure>
           <figure class="card">
-            <img src="images/MVG.png" alt="Mon Vieux Grimoire website screenshot">
+            <img src="images/MVG.webp" alt="Mon Vieux Grimoire website screenshot">
             <figcaption>
               <h3>Mon Vieux Grimoire</h3>
               <p>
-                Backend for a book notation website.
-                <br>
+                Backend for a book notation website. Rest API;
+                secure login with password hash and JWT.<br>
                 Done with NodeJS, Express and MongoDB.
               </p>
+              <br>
+              <a href="https://github.com/Badaxis/vieux-grimoire-backend">https://github.com/Badaxis/vieux-grimoire-backend</a>
             </figcaption>
           </figure>
         </div>
@@ -92,7 +108,7 @@
             <img src="images/react_logo.svg" alt="React logo" title="React">
           </div>
           <div class="medal">
-            <img src="images/rr_logo_light.svg" alt="React-router logo" title="React-router">
+            <img src="images/rr_logo_light.svg" alt="React Router logo" title="React Router">
           </div>
           <div class="medal">
             <img src="images/nodejs_logo.svg" alt="NodeJS logo" title="NodeJS">
@@ -107,7 +123,7 @@
             <img src="images/sass_logo.svg" alt="SASS logo" title="SASS">
           </div>
           <div class="medal">
-            <img src="images/JavaScript-logo.png" alt="Javascript logo" title="Javascript">
+            <img src="images/MongoDB_Logo.svg" alt="MongoDB logo" title="MongoDB">
           </div>
           <div class="medal">
             <img src="images/vite_logo.svg" alt="Vite logo" title="Vite">
@@ -123,24 +139,12 @@
           </div>
         </div>
       </section>
-      <section id="contact">
-        <h1>Contact</h1>
-        <h2>Let's get in touch</h2>
-        <p>
-          <img src="images/mail.png" alt="Mail symbol">
-          <a href="mailto:billet.vincent@free.fr">billet.vincent@free.fr</a>
-        </p>
-        <p>
-          <img src="images/github-mark-white.png" alt="Github logo">
-          <a href="https://github.com/Badaxis">https://github.com/Badaxis</a>
-        </p>
-        <p>
-          <img src="images/LI-In-Bug.png" alt="Linkedin logo">
-          <a href="https://www.linkedin.com/in/vincent-billet-0699452a4/">https://www.linkedin.com/in/vincent-billet-0699452a4/</a>
-        </p>
-      </section>
     </main>
     <footer>
+      <div class="links">
+        <a href="https://github.com/Badaxis"><img src="images/github-mark-white.png" alt="Github logo"></a>
+        <a href="https://www.linkedin.com/in/vincent-billet-0699452a4/"><img src="images/LI-In-Bug.png" alt="Linkedin logo"></a>
+      </div>
       <p>© 2024 Vincent BILLET</p>
     </footer>
   </body>
